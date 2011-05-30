@@ -103,8 +103,8 @@ projects[tao][download][url] = git://github.com/developmentseed/tao.git
 projects[rubik][type] = theme
 
 ;projects[jake][type] = theme
-;101 projects[jake][download][type] = git
-;102 projects[jake][download][url] = git://github.com/developmentseed/jake.git
+;projects[jake][download][type] = git
+;projects[jake][download][url] = git://github.com/developmentseed/jake.git
 
 
 

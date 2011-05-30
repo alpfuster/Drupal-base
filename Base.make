@@ -50,47 +50,40 @@ api = 2
 ; projects[] = apachesolr
   projects[] = data
   projects[] = date
-; projects[] = imageapi
-; projects[] = imagecache
-; projects[] = imagecrop
+  projects[] = imageapi
+  projects[] = imagecache
+  projects[] = imagecrop
 
-; projects[] = conditional_fields
-; projects[] = content_taxonomy
-; projects[] = Content Taxonomy Autocomplete
-; projects[] = Content Taxonomy Options
-; projects[] = Content Permissions
-; projects[] = Content Taxonomy Tree
-; projects[] = Embedded Audio Field
-; projects[] = Embedded Media Field
-; projects[] = Embedded Media Thumbnail
-; projects[] = Embedded Video Field
-; projects[] = FileField
-; projects[] = FileField Sources
-; projects[] = ImageField
-; projects[] = Link
-; projects[] = Node Reference
-; projects[] = Node Relationships
-; projects[] = Number
-; projects[] = Option Widgets
-; projects[] = Text
-; projects[] = User Reference
+  projects[] = conditional_fields
+  projects[] = content_taxonomy
+  projects[] = emfield
+  projects[] = filefield
+  projects[] = filefield_sources
+  projects[] = imagefield
+  projects[] = link
+  projects[] = noderelationships
+
+; Users
+; -----
+projects[] = content_profile
+
 
 ; Semantic Web
 ; ------------
-; projects[] = opencalais
-; projects[] = morelikethis
+ projects[] = opencalais
+ projects[] = morelikethis
 
 ; Maps
 ; ----
-; projects[] = openlayers
-; projects[] = openlayers_geocoder
+ projects[] = openlayers
+ projects[] = openlayers_geocoder
 
 
 ; Look and feel
 ; -------------
-; projects[] = jquery_ui
-; projects[] = jquery_update
-; projects[] = tabs
+ projects[] = jquery_ui
+ projects[] = jquery_update
+ projects[] = tabs
 ; projects[] = swftools
 ; projects[] = flot
 ; projects[] = ckeditor

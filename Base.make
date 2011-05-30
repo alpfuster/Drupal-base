@@ -26,43 +26,34 @@ api = 2
 
 ; Basic modules
 ;--------------
+projects[] = devel
+projects[] = context
+projects[] = context_reaction_theme
+projects[] = features
+projects[] = diff
+projects[] = distro
+projects[] = ctools
+projects[] = token
+projects[] = advanced_help
+projects[] = purl
+projects[] = strongarm
+
+;Security
+;--------
+projects[] = mollom
+projects[] = captcha
+
+;Content
+;-------
 projects[] = views
 projects[] = cck 
 ;projects[] = apachesolr
-projects[] = advanced_help
-projects[] = captcha
-;projects[] = ckeditor
-projects[] = context
-projects[] = context_reaction_theme
-projects[] = ctools
 projects[] = data
 projects[] = date
-projects[] = devel
-projects[] = diff
-projects[] = distro
-projects[] = features
-projects[] = mollom
-projects[] = purl
-projects[] = strongarm
-projects[] = token
-
-;Look and feel
-;-------------
-;projects[] = jquery_ui
-;projects[] = jquery_update
-;projects[] = tabs
-;projects[] = swftools
-;projects[] = flot
-
-
-;Images
-;------
 ;projects[] = imageapi
 ;projects[] = imagecache
 ;projects[] = imagecrop
 
-;CCK fields modules
-;------------------
 ;projects[] = conditional_fields
 ;projects[] = content_taxonomy
 ;projects[] = Content Taxonomy Autocomplete
@@ -93,6 +84,16 @@ projects[] = token
 ;----
 ;projects[] = openlayers
 ;projects[] = openlayers_geocoder
+
+
+;Look and feel
+;-------------
+;projects[] = jquery_ui
+;projects[] = jquery_update
+;projects[] = tabs
+;projects[] = swftools
+;projects[] = flot
+;projects[] = ckeditor
 
 ;Themes
 ;------

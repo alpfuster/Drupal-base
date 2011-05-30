@@ -1,0 +1,7 @@
+INSTALLATION INSTRUCTIONS
+
+1. Download and install Drush (http://drush.ws/)
+2. Download ans install Drush make (http://drupal.org/project/drush_make)
+3. Clone or Fork the SoftActiva Drupal base repository (git://github.com/softactiva/Drupal-base.git)
+4. Uncomment needed modules
+5. Run: drush make --translations=en,es [build-path]

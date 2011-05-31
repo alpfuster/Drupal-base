@@ -78,6 +78,11 @@ projects[] = content_profile
  projects[] = openlayers
  projects[] = openlayers_geocoder
 
+; e-commerce
+; ---------------
+
+  projects[] = ubercart
+
 
 ; Look and feel
 ; -------------

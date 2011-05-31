@@ -77,7 +77,8 @@ projects[] = content_profile
 ; ----
  projects[] = openlayers
  projects[] = openlayers_geocoder
- projects[] = mapbox
+ peojects[] = geotaxonomy
+;projects[] = mapbox
 
 ; e-commerce
 ; ---------------

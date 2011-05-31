@@ -37,6 +37,7 @@ api = 2
   projects[] = advanced_help
   projects[] = purl
   projects[] = strongarm
+ 
 
 ; Security
 ; --------
@@ -62,6 +63,7 @@ api = 2
   projects[] = imagefield
   projects[] = link
   projects[] = noderelationships
+  projects[] = private_number
 
 ; Users
 ; -----

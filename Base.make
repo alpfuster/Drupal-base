@@ -82,6 +82,11 @@ projects[] = content_profile
  peojects[] = geotaxonomy
 ;projects[] = mapbox
 
+;Charts
+;------
+; projects[] = flot
+
+
 ; e-commerce
 ; ---------------
 
@@ -94,7 +99,6 @@ projects[] = content_profile
  projects[] = jquery_update
  projects[] = tabs
 ; projects[] = swftools
-; projects[] = flot
 ; projects[] = ckeditor
 
 ; Themes

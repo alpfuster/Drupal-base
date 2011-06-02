@@ -65,6 +65,10 @@ api = 2
   projects[] = noderelationships
   projects[] = private_number
 
+; Views
+; -----
+  projects[views_modes][location] = http://code.developmentseed.org/fserver
+
 ; Users
 ; -----
 projects[] = content_profile

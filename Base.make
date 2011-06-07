@@ -42,6 +42,7 @@ api = 2
 ; --------
   projects[] = mollom
   projects[] = captcha
+  projects[] = content_permissions
 
 ; Content
 ; -------
@@ -54,9 +55,12 @@ api = 2
   projects[] = filefield
   projects[] = filefield_sources
   projects[] = imagefield
+  projects[] = node_reference
   projects[] = noderelationships
   projects[] = emfield
   projects[] = private_number
+  projects[] = option_widgets
+  projects[] = user_reference
 
 ; Images basic modules
 ; ------

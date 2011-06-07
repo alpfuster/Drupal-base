@@ -38,7 +38,6 @@ api = 2
   projects[] = purl
   projects[] = strongarm
  
-
 ; Security
 ; --------
   projects[] = mollom
@@ -46,27 +45,28 @@ api = 2
 
 ; Content
 ; -------
-  projects[] = views
+ 
   projects[] = cck 
-; projects[] = apachesolr
   projects[] = data
+  projects[] = conditional_fields
   projects[] = date
+  projects[] = link
+  projects[] = filefield
+  projects[] = filefield_sources
+  projects[] = imagefield
+  projects[] = noderelationships
+  projects[] = emfield
+  projects[] = private_number
+
+; Images basic modules
+; ------
   projects[] = imageapi
   projects[] = imagecache
   projects[] = imagecrop
 
-  projects[] = conditional_fields
-  projects[] = content_taxonomy
-  projects[] = emfield
-  projects[] = filefield
-  projects[] = filefield_sources
-  projects[] = imagefield
-  projects[] = link
-  projects[] = noderelationships
-  projects[] = private_number
-
 ; Views
 ; -----
+  projects[] = views
   projects[views_modes][location] = http://code.developmentseed.org/fserver
 
 ; Users

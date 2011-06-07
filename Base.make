@@ -101,7 +101,7 @@ api = 2
 ; ---------------
 
   projects[] = ubercart
-  projects[] = uc_subscribe 
+  projects[] = uc_recurring 
 
 
 ; Look and feel

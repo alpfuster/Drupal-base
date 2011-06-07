@@ -61,12 +61,19 @@ api = 2
   projects[] = private_number
   projects[] = option_widgets
   projects[] = user_reference
+  projects[] = openlayers_geocoder
 
 ; Images basic modules
 ; ------
   projects[] = imageapi
   projects[] = imagecache
   projects[] = imagecrop
+
+; Maps basic modules
+; ----
+  projects[] = openlayers
+  projects[] = geotaxonomy
+; projects[] = mapbox
 
 ; Views
 ; -----
@@ -83,12 +90,7 @@ projects[] = content_profile
  projects[] = opencalais
  projects[] = morelikethis
 
-; Maps
-; ----
- projects[] = openlayers
- projects[] = openlayers_geocoder
- peojects[] = geotaxonomy
-;projects[] = mapbox
+
 
 ;Charts
 ;------

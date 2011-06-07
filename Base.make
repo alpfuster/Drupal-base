@@ -82,7 +82,7 @@ api = 2
 
 ; Users
 ; -----
-projects[] = content_profile
+  projects[] = content_profile
 
 
 ; Semantic Web
@@ -101,6 +101,7 @@ projects[] = content_profile
 ; ---------------
 
   projects[] = ubercart
+  projects[] = uc_subscribe 
 
 
 ; Look and feel

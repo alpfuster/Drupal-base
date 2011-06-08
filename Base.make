@@ -83,6 +83,7 @@ api = 2
 ; Views
 ; -----
   projects[] = views
+  projects[] = views_calc
   projects[views_modes][location] = http://code.developmentseed.org/fserver
 
 ; Users

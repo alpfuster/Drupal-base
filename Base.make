@@ -45,6 +45,10 @@ api = 2
   projects[] = captcha
   projects[] = content_permissions
 
+; Users
+; -----
+  Projects[] = content_profile
+
 ; Content
 ; -------
  

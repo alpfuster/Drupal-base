@@ -99,7 +99,7 @@ api = 2
 
 ;Charts
 ;------
-; projects[] = flot
+; projects[] = chart
 
 
 ; e-commerce

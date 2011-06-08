@@ -99,10 +99,10 @@ api = 2
 
 ; e-commerce
 ; ---------------
-  projects[] = ubercart
-  projects[] = uc_recurring
   projects[] = payment
   projects[] = shipping
+  projects[] = ubercart
+  projects[] = uc_recurring
   projects[] = uc_attribute
   projects[] = uc_cart
   projects[] = uc_cart_links

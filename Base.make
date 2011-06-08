@@ -99,9 +99,25 @@ api = 2
 
 ; e-commerce
 ; ---------------
-
   projects[] = ubercart
-  projects[] = uc_recurring 
+  projects[] = uc_recurring
+  projects[] = payment
+  projects[] = shipping
+  projects[] = uc_attribute
+  projects[] = uc_cart
+  projects[] = uc_cart_links
+  projects[] = uc_catalog
+  projects[] = uc_file
+  projects[] = uc_googleanalytics
+  projects[] = uc_order
+  projects[] = uc_product
+  projects[] = uc_product_kit
+  projects[] = uc_reports
+  projects[] = uc_roles
+  projects[] = uc_stock
+  projects[] = uc_store
+  projects[] = uc_tax_report
+  projects[] = uc_taxes
 
 
 ; Look and feel

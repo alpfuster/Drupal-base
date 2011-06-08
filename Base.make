@@ -37,7 +37,8 @@ api = 2
   projects[] = advanced_help
   projects[] = purl
   projects[] = strongarm
- 
+  projects[] = node_import
+
 ; Security
 ; --------
   projects[] = mollom

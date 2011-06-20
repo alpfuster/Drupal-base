@@ -47,7 +47,7 @@ api = 2
 
 ; Users
 ; -----
-  Projects[] = content_profile
+  projects[] = content_profile
 
 ; Content
 ; -------

@@ -25,20 +25,21 @@ api = 2
 
 ; Basic modules
 ; -------------
-  projects[] = devel
-  projects[] = context
-  projects[] = context_reaction_theme
-  projects[] = features
-  projects[] = diff
-  projects[] = distro
-  projects[] = ctools
-  projects[] = token
-  projects[] = advanced_help
-  projects[] = purl
-  projects[] = strongarm
-  projects[] = node_import
-  projects[] = panels
-  projects[] = views
+  projects[devel][subdir] = "basic-modules"
+  projects[context][subdir] = "basic-modules"
+  projects[context_reaction_theme][subdir] = "basic-modules"
+  projects[features][subdir] = "basic-modules"
+  projects[diff][subdir] = "basic-modules"
+  projects[distro][subdir] = "basic-modules"
+  projects[ctools][subdir] = "basic-modules"
+  projects[token][subdir] = "basic-modules"
+  projects[advanced_help][subdir] = "basic-modules"
+  projects[purl][subdir] = "basic-modules"
+  projects[strongarm][subdir] = "basic-modules"
+  projects[node_import][subdir] = "basic-modules"
+  projects[panels][subdir] = "basic-modules"
+  projects[views][subdir] = "basic-modules"
+  projects[cck][subdir] = "basic-modules" 
 
 ; Performance
 ; -----------
@@ -58,7 +59,6 @@ api = 2
 
 ; Content
 ; ------- 
-  projects[cck][subdir] = "content-modules" 
   projects[data][subdir] = "content-modules" 
   projects[conditional_fields][subdir] = "content-modules" 
   projects[date][subdir] = "content-modules" 
@@ -99,25 +99,25 @@ api = 2
 
 ; e-commerce
 ; ----------
-; projects[] = payment
-; projects[] = shipping
-; projects[] = ubercart
-; projects[] = uc_recurring
-; projects[] = uc_attribute
-; projects[] = uc_cart
-; projects[] = uc_cart_links
-; projects[] = uc_catalog
-; projects[] = uc_file
-; projects[] = uc_googleanalytics
-; projects[] = uc_order
-; projects[] = uc_product
-; projects[] = uc_product_kit
-; projects[] = uc_reports
-; projects[] = uc_roles
-; projects[] = uc_stock
-; projects[] = uc_store
-; projects[] = uc_tax_report
-; projects[] = uc_taxes
+; projects[payment][subdir] = "ec-modules"
+; projects[shipping][subdir] = "ec-modules"
+; projects[ubercart][subdir] = "ec-modules"
+; projects[uc_recurring][subdir] = "ec-modules"
+; projects[uc_attribute][subdir] = "ec-modules"
+; projects[uc_cart][subdir] = "ec-modules"
+; projects[uc_cart_links][subdir] = "ec-modules"
+; projects[uc_catalog][subdir] = "ec-modules"
+; projects[uc_file][subdir] = "ec-modules"
+; projects[uc_googleanalytics][subdir] = "ec-modules"
+; projects[uc_order][subdir] = "ec-modules"
+; projects[uc_product][subdir] = "ec-modules"
+; projects[uc_product_kit][subdir] = "ec-modules"
+; projects[uc_reports][subdir] = "ec-modules"
+; projects[uc_roles][subdir] = "ec-modules"
+; projects[uc_stock][subdir] = "ec-modules"
+; projects[uc_store][subdir] = "ec-modules"
+; projects[uc_tax_report][subdir] = "ec-modules"
+; projects[uc_taxes][subdir] = "ec-modules"
 
 
 ; Look and feel

@@ -128,10 +128,10 @@ api = 2
 ; -------------
   projects[jquery_ui][subdir] = "laf-modules"
 ; projects[jquery_update][subdir] = "laf-modules"
-; projects[tabs][subdir] = "laf-modules"
+  projects[tabs][subdir] = "laf-modules"
 ; projects[swftools][subdir] = "laf-modules"
 ; projects[ckeditor][subdir] = "laf-modules"
-; projects[chart][subdir] = "laf-modules"
+  projects[charts][subdir] = "laf-modules"
 
 ; Themes
 ; ------

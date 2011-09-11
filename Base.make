@@ -66,12 +66,9 @@ api = 2
   projects[filefield][subdir] = "content-modules" 
   projects[filefield_sources][subdir] = "content-modules" 
   projects[imagefield][subdir] = "content-modules" 
-; projects[node_reference][subdir] = "content-modules" 
   projects[noderelationships][subdir] = "content-modules" 
   projects[emfield][subdir] = "content-modules" 
   projects[private_number][subdir] = "content-modules" 
-; projects[option_widgets][subdir] = "content-modules" 
-; projects[user_reference][subdir] = "content-modules" 
   projects[openlayers_geocoder][subdir] = "content-modules" 
 
 ; Image modules

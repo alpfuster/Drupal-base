@@ -133,9 +133,6 @@ api = 2
 ; Themes
 ; ------
   projects[tao][type] = theme
-  projects[tao][download][type] = git
-  projects[tao][download][url] = git://github.com/developmentseed/tao.git
-
   projects[rubik][type] = theme
 
 ; projects[jake][type] = theme

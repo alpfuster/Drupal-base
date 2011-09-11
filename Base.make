@@ -43,7 +43,7 @@ api = 2
 ; --------
   projects[] = mollom
   projects[] = captcha
-  projects[] = content_permissions
+; projects[] = content_permissions
 
 ; Users
 ; -----
@@ -60,12 +60,12 @@ api = 2
   projects[] = filefield
   projects[] = filefield_sources
   projects[] = imagefield
-  projects[] = node_reference
+; projects[] = node_reference
   projects[] = noderelationships
   projects[] = emfield
   projects[] = private_number
-  projects[] = option_widgets
-  projects[] = user_reference
+; projects[] = option_widgets
+; projects[] = user_reference
   projects[] = openlayers_geocoder
 
 ; Images basic modules
@@ -84,7 +84,7 @@ api = 2
 ; -----
   projects[] = views
   projects[] = views_calc
-  projects[views_modes][location] = http://code.developmentseed.org/fserver
+; projects[views_modes][location] = http://code.developmentseed.org/fserver
 
 ; Semantic Web
 ; ------------
@@ -100,32 +100,32 @@ api = 2
 
 ; e-commerce
 ; ---------------
-  projects[] = payment
-  projects[] = shipping
-  projects[] = ubercart
-  projects[] = uc_recurring
-  projects[] = uc_attribute
-  projects[] = uc_cart
-  projects[] = uc_cart_links
-  projects[] = uc_catalog
-  projects[] = uc_file
-  projects[] = uc_googleanalytics
-  projects[] = uc_order
-  projects[] = uc_product
-  projects[] = uc_product_kit
-  projects[] = uc_reports
-  projects[] = uc_roles
-  projects[] = uc_stock
-  projects[] = uc_store
-  projects[] = uc_tax_report
-  projects[] = uc_taxes
+; projects[] = payment
+; projects[] = shipping
+; projects[] = ubercart
+; projects[] = uc_recurring
+; projects[] = uc_attribute
+; projects[] = uc_cart
+; projects[] = uc_cart_links
+; projects[] = uc_catalog
+; projects[] = uc_file
+; projects[] = uc_googleanalytics
+; projects[] = uc_order
+; projects[] = uc_product
+; projects[] = uc_product_kit
+; projects[] = uc_reports
+; projects[] = uc_roles
+; projects[] = uc_stock
+; projects[] = uc_store
+; projects[] = uc_tax_report
+; projects[] = uc_taxes
 
 
 ; Look and feel
 ; -------------
  projects[] = jquery_ui
  projects[] = jquery_update
- projects[] = tabs
+; projects[] = tabs
 ; projects[] = swftools
 ; projects[] = ckeditor
 

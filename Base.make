@@ -56,8 +56,7 @@ api = 2
   projects[] = content_profile
 
 ; Content
-; -------
- 
+; ------- 
   projects[] = cck 
   projects[] = data
   projects[] = conditional_fields
@@ -75,14 +74,14 @@ api = 2
   projects[] = openlayers_geocoder
 
 ; Images basic modules
-; ------
+; --------------------
   projects[] = imageapi
   projects[] = imagecache
   projects[] = imagecrop
   projects[] = transliteration
 
 ; Maps basic modules
-; ----
+; ------------------
   projects[] = openlayers
   projects[] = geotaxonomy
 ; projects[] = mapbox
@@ -98,15 +97,13 @@ api = 2
  projects[] = opencalais
  projects[] = morelikethis
 
-
-
 ;Charts
 ;------
 ; projects[] = chart
 
 
 ; e-commerce
-; ---------------
+; ----------
 ; projects[] = payment
 ; projects[] = shipping
 ; projects[] = ubercart
@@ -130,16 +127,16 @@ api = 2
 
 ; Look and feel
 ; -------------
- projects[] = jquery_ui
- projects[] = jquery_update
+  projects[] = jquery_ui
+  projects[] = jquery_update
 ; projects[] = tabs
 ; projects[] = swftools
 ; projects[] = ckeditor
 
 ; Themes
 ; ------
- projects[tao][location] = http://code.developmentseed.org/fserver
- projects[rubik][location] = http://code.developmentseed.org/fserver
+  projects[tao][location] = http://code.developmentseed.org/fserver
+  projects[rubik][location] = http://code.developmentseed.org/fserver
 
 ; Other files
 ; -----------

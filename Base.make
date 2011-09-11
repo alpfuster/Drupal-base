@@ -38,69 +38,64 @@ api = 2
   projects[] = strongarm
   projects[] = node_import
   projects[] = panels
+  projects[] = views
 
 ; Performance
 ; -----------
- projects[memcache][subdir] = "contrib"
- projects[varnish][subdir] = "contrib"
- projects[apachesolr][subdir] = "contrib"
+ projects[memcache][subdir] = "performance-modules"
+ projects[varnish][subdir] = "performance-modules"
+ projects[apachesolr][subdir] = "performance-modules"
 
 ; Security
 ; --------
-  projects[] = mollom
-  projects[] = captcha
-; projects[] = content_permissions
+  projects[mollom][subdir] = "security-modules"
+  projects[captcha][subdir] = "security-modules"
+; projects[content_permissions][subdir] = "security-modules"
 
 ; Users
 ; -----
-  projects[] = content_profile
+  projects[content_profile][subdir] = "users"
 
 ; Content
 ; ------- 
-  projects[] = cck 
-  projects[] = data
-  projects[] = conditional_fields
-  projects[] = date
-  projects[] = link
-  projects[] = filefield
-  projects[] = filefield_sources
-  projects[] = imagefield
-; projects[] = node_reference
-  projects[] = noderelationships
-  projects[] = emfield
-  projects[] = private_number
-; projects[] = option_widgets
-; projects[] = user_reference
-  projects[] = openlayers_geocoder
+  projects[cck][subdir] = "content-modules" 
+  projects[data][subdir] = "content-modules" 
+  projects[conditional_fields][subdir] = "content-modules" 
+  projects[date][subdir] = "content-modules" 
+  projects[link][subdir] = "content-modules" 
+  projects[filefield][subdir] = "content-modules" 
+  projects[filefield_sources][subdir] = "content-modules" 
+  projects[imagefield][subdir] = "content-modules" 
+; projects[node_reference][subdir] = "content-modules" 
+  projects[noderelationships][subdir] = "content-modules" 
+  projects[emfield][subdir] = "content-modules" 
+  projects[private_number][subdir] = "content-modules" 
+; projects[option_widgets][subdir] = "content-modules" 
+; projects[user_reference][subdir] = "content-modules" 
+  projects[openlayers_geocoder][subdir] = "content-modules" 
 
 ; Images basic modules
 ; --------------------
-  projects[] = imageapi
-  projects[] = imagecache
-  projects[] = imagecrop
-  projects[] = transliteration
+  projects[imageapi][subdir] = "image-modules" 
+  projects[imagecache][subdir] = "image-modules" 
+  projects[imagecrop][subdir] = "image-modules" 
+  projects[transliteration][subdir] = "image-modules" 
 
 ; Maps basic modules
 ; ------------------
-  projects[] = openlayers
-  projects[] = geotaxonomy
-; projects[] = mapbox
+  projects[openlayers][subdir] = "maps-modules" 
+  projects[geotaxonomy][subdir] = "maps-modules" 
+; projects[mapbox][subdir] = "maps-modules" 
 
 ; Views
 ; -----
-  projects[] = views
-  projects[] = views_calc
-; projects[views_modes][location] = http://code.developmentseed.org/fserver
+  projects[views_calc][subdir] = "views-modules" 
+; projects[views_modes][subdir] = "views-modules" 
 
 ; Semantic Web
 ; ------------
- projects[] = opencalais
- projects[] = morelikethis
-
-;Charts
-;------
-; projects[] = chart
-
+ projects[opencalais][subdir] = "semantic-modules"
+ projects[morelikethis][subdir] = "semantic-modules"
 
 ; e-commerce
 ; ----------
@@ -127,11 +122,12 @@ api = 2
 
 ; Look and feel
 ; -------------
-  projects[] = jquery_ui
-; projects[] = jquery_update
-; projects[] = tabs
-; projects[] = swftools
-; projects[] = ckeditor
+  projects[jquery_ui][subdir] = "laf-modules"
+; projects[jquery_update][subdir] = "laf-modules"
+; projects[tabs][subdir] = "laf-modules"
+; projects[swftools][subdir] = "laf-modules"
+; projects[ckeditor][subdir] = "laf-modules"
+; projects[chart][subdir] = "laf-modules"
 
 ; Themes
 ; ------

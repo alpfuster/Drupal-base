@@ -74,7 +74,7 @@ api = 2
 ; projects[user_reference][subdir] = "content-modules" 
   projects[openlayers_geocoder][subdir] = "content-modules" 
 
-; Images basic modules
+; Image modules
 ; --------------------
   projects[imageapi][subdir] = "image-modules" 
   projects[imagecache][subdir] = "image-modules" 

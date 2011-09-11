@@ -16,10 +16,9 @@ api = 2
 ; Core project
 ; ------------
 ; Use pressflow instead of Drupal core:
- projects[pressflow][type] = "core"
- projects[pressflow][download][type] = "file"
- projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.22.104/+download/pressflow-6.22.104.tar.gz"
-
+  projects[pressflow][type] = "core"
+  projects[pressflow][download][type] = "get"
+  projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 ; Projects
 ; --------
@@ -39,6 +38,12 @@ api = 2
   projects[] = strongarm
   projects[] = node_import
   projects[] = panels
+
+; Performance
+; -----------
+ projects[memcache][subdir] = "contrib"
+ projects[varnish][subdir] = "contrib"
+ projects[apachesolr][subdir] = "contrib"
 
 ; Security
 ; --------
@@ -74,6 +79,7 @@ api = 2
   projects[] = imageapi
   projects[] = imagecache
   projects[] = imagecrop
+  projects[] = transliteration
 
 ; Maps basic modules
 ; ----
@@ -132,13 +138,20 @@ api = 2
 
 ; Themes
 ; ------
-  projects[tao][type] = theme
-  projects[rubik][type] = theme
+ projects[tao][location] = http://code.developmentseed.org/fserver
+ projects[rubik][location] = http://code.developmentseed.org/fserver
 
-; projects[jake][type] = theme
-; projects[jake][download][type] = git
-; projects[jake][download][url] = git://github.com/developmentseed/jake.git
+; Other files
+; -----------
 
+; ApacheSolr
+  libraries[SolrPhpClient][download][type] = "get"
+  libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+  libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
+  libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 
-
-
+; jQuery UI
+  libraries[jquery_ui][download][type] = "get"
+  libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+  libraries[jquery_ui][directory_name] = "jquery.ui"
+  libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"

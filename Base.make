@@ -128,15 +128,15 @@ api = 2
 ; Look and feel
 ; -------------
   projects[] = jquery_ui
-  projects[] = jquery_update
+; projects[] = jquery_update
 ; projects[] = tabs
 ; projects[] = swftools
 ; projects[] = ckeditor
 
 ; Themes
 ; ------
-  projects[tao][location] = http://code.developmentseed.org/fserver
-  projects[rubik][location] = http://code.developmentseed.org/fserver
+  projects = tao
+  projects = rubik
 
 ; Other files
 ; -----------

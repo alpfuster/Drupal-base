@@ -129,6 +129,7 @@ api = 2
 ; projects[swftools][subdir] = "laf-modules"
 ; projects[ckeditor][subdir] = "laf-modules"
   projects[charts][subdir] = "laf-modules"
+  projects[jcarousel][subdir] = "laf-modules"
 
 ; Themes
 ; ------

@@ -81,6 +81,10 @@ api = 2
   projects[imagecrop][subdir] = "image-modules" 
   projects[transliteration][subdir] = "image-modules" 
 
+; Video
+; -----
+  projects[video][subdir] = "video-modules"
+
 ; Maps basic modules
 ; ------------------
   projects[openlayers][subdir] = "maps-modules" 

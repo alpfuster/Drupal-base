@@ -86,11 +86,6 @@ api = 2
   projects[] = views_calc
   projects[views_modes][location] = http://code.developmentseed.org/fserver
 
-; Users
-; -----
-  projects[] = content_profile
-
-
 ; Semantic Web
 ; ------------
  projects[] = opencalais

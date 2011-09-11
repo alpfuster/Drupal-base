@@ -143,7 +143,7 @@ api = 2
 
 ; ApacheSolr
   libraries[SolrPhpClient][download][type] = "get"
-  libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+  libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
   libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
   libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 

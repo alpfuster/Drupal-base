@@ -135,8 +135,8 @@ api = 2
 
 ; Themes
 ; ------
-  projects = tao
-  projects = rubik
+  projects[] = tao
+  projects[] = rubik
 
 ; Other files
 ; -----------

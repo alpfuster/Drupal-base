@@ -38,6 +38,7 @@ api = 2
   projects[] = purl
   projects[] = strongarm
   projects[] = node_import
+  projects[] = panels
 
 ; Security
 ; --------

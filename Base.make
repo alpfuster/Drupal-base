@@ -120,6 +120,11 @@ api = 2
 ; projects[uc_tax_report][subdir] = "ec-modules"
 ; projects[uc_taxes][subdir] = "ec-modules"
 
+; Advertisement
+; -------------
+  projects[ad][subdir] = "ad-modules"
+  projects[ad_geoip][subdir] = "ad-modules"
+
 
 ; Look and feel
 ; -------------

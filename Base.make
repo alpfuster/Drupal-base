@@ -70,6 +70,7 @@ api = 2
   projects[emfield][subdir] = "content-modules" 
   projects[private_number][subdir] = "content-modules" 
   projects[openlayers_geocoder][subdir] = "content-modules" 
+  projects[advanced_blog][subdir] = "content-modules" 
 
 ; Image modules
 ; --------------------

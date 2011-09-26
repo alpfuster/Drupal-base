@@ -71,6 +71,7 @@ api = 2
   projects[private_number][subdir] = "content-modules" 
   projects[openlayers_geocoder][subdir] = "content-modules" 
   projects[advanced_blog][subdir] = "content-modules" 
+  projects[cck_country][subdir] = "content-modules" 
 
 ; Image modules
 ; --------------------

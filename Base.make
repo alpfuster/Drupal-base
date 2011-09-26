@@ -27,7 +27,6 @@ api = 2
 ; -------------
   projects[devel][subdir] = "basic-modules"
   projects[context][subdir] = "basic-modules"
-  projects[context_theme][subdir] = "basic-modules"
   projects[context_reaction_theme][subdir] = "basic-modules"
   projects[features][subdir] = "basic-modules"
   projects[diff][subdir] = "basic-modules"
